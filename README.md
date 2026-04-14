@@ -1,5 +1,5 @@
 # Obscure Divine
-##Frequency Weaver
+## Frequency Weaver
 
 ---
 ### **WEAVE YOUR SOUND INTO DARKNESS**
