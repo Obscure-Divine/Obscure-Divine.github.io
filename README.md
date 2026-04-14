@@ -1,6 +1,9 @@
-# Obscure-Divine.github.io
+# Obscure Divine
+##Frequency Weaver
+
+---
 ### **WEAVE YOUR SOUND INTO DARKNESS**
-*Mixing and Mastering • Production Lessons*
+*Mixing and Mastering • Music/Production Lessons*
 
 ---
 **MIXING & MASTERING**  
