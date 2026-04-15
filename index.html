@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Obscure Divine | Frequency Weaver</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: #0a0a0a;
+        color: #f5f5f5;
+        line-height: 1.6;
+        overflow-x: hidden;
+    }
+
+    header {
+        text-align: center;
+        padding: 4rem 1rem;
+        background: radial-gradient(circle at center, #111, #000);
+        animation: fadeIn 1.5s ease;
+    }
+
+    h1 {
+        font-size: 3rem;
+        letter-spacing: 2px;
+    }
+
+    header p {
+        margin-top: 1rem;
+        color: #aaa;
+    }
+
+    nav {
+        margin-top: 2rem;
+    }
+
+    nav a {
+        margin: 0 1rem;
+        text-decoration: none;
+        color: #f5f5f5;
+        position: relative;
+    }
+
+    nav a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        width: 0%;
+        height: 2px;
+        background: #f5f5f5;
+        transition: width 0.3s ease;
+    }
+
+    nav a:hover::after {
+        width: 100%;
+    }
+
+    main {
+        max-width: 900px;
+        margin: auto;
+        padding: 2rem 1rem;
+    }
+
+    .service {
+        margin: 4rem 0;
+        opacity: 0;
+        transform: translateY(30px);
+        animation: riseUp 1s ease forwards;
+    }
+
+    .service:nth-child(2) {
+        animation-delay: 0.3s;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        color: #ccc;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 0.8rem 1.5rem;
+        border: 1px solid #f5f5f5;
+        color: #f5f5f5;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+        background: #f5f5f5;
+        color: #000;
+    }
+
+    footer {
+        text-align: center;
+        padding: 2rem;
+        color: #777;
+        border-top: 1px solid #222;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @keyframes riseUp {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>OBSCURE DIVINE</h1>
+    <p>Mixing & Mastering • Music + Production Lessons</p>
+
+    <nav>
+        <a href="#mixing">Mixing & Mastering</a>
+        <a href="#lessons">Production Lessons</a>
+    </nav>
+</header>
+
+<main>
+
+    <section id="mixing" class="service">
+        <h2>Mixing & Mastering</h2>
+        <p>I sculpt raw chaos into pure sonic gold. Aggressive rhythms meet crystal vocals. Deep, pulsing bass that awakens the soul. Your track will hit hard, shine clear, and keep its unique spirit.</p>
+        <a href="#" class="btn">Book a Session</a>
+    </section>
+
+    <section id="lessons" class="service">
+        <h2>Music Production Lessons</h2>
+        <p>Learn to weave frequencies like a true alchemist. One-on-one lessons in arrangement, sound design, vocal production, mixing, and mastering. Beginner to advanced — your path to mastery starts here.</p>
+        <a href="#" class="btn">Start Learning</a>
+    </section>
+
+</main>
+
+<footer>
+    <p>Obscure Divine</p>
+</footer>
+
+</body>
+</html>
