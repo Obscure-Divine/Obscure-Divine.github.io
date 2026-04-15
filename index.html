@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Libre+Barcode+128+Text&family=Nova+Mono&family=Sankofa+Display&display=swap" rel="stylesheet">
 <title>Obscure Divine | Frequency Weaver</title>
 
 <style>
@@ -12,6 +15,30 @@
         box-sizing: border-box;
         font-family: Arial, sans-serif;
     }
+
+      .Attention-font {
+       font-family: "Sankofa Display", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+    }
+
+      .Special-font {
+        font-family: "Libre Barcode 128 Text", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+   
+      .Body-font {
+        font-family: "Nova Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+    }
+   
+      .Title-font {
+        font-family: "Cinzel Decorative", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
 
     body {
         background: #000000;
@@ -122,6 +149,7 @@
             opacity: 1;
             transform: translateY(0);
         }
+
     }
 </style>
 </head>
@@ -129,8 +157,8 @@
 <body>
 
 <header>
-    <h1>OBSCURE DIVINE</h1>
-    <p>Mixing & Mastering • Music + Production Lessons</p>
+    <h1 class="Title-font">OBSCURE DIVINE</h1>
+    <p class="Body-font">Mixing & Mastering • Music & Production Lessons</p>
 
     <nav>
         <a href="#mixing">Mixing & Mastering</a>
@@ -141,21 +169,21 @@
 <main>
 
     <section id="mixing" class="service">
-        <h2>Mixing & Mastering</h2>
-        <p>I sculpt raw chaos into pure sonic gold. Aggressive rhythms meet crystal vocals. Deep, pulsing bass that awakens the soul. Your track will hit hard, shine clear, and keep its unique spirit.</p>
+        <h2 class="Attention-font">Mixing & Mastering</h2>
+        <p class="Body-font">I sculpt raw chaos into pure sonic gold. Aggressive rhythms meet crystal vocals. Deep, pulsing bass that awakens the soul. Your track will hit hard, shine clear, and keep its unique spirit.</p>
         <a href="#" class="btn">Book a Session</a>
     </section>
 
     <section id="lessons" class="service">
-        <h2>Music Production Lessons</h2>
-        <p>Learn to weave frequencies like a true alchemist. One-on-one lessons in arrangement, sound design, vocal production, mixing, and mastering. Beginner to advanced — your path to mastery starts here.</p>
+        <h2 class="Attention-font">Music & Production Lessons</h2>
+        <p class="Body-font">Learn to weave frequencies like a true alchemist. One-on-one lessons in arrangement, sound design, vocal production, mixing, and mastering. Beginner to advanced. Your path to mastery begins here.</p>
         <a href="#" class="btn">Start Learning</a>
     </section>
 
 </main>
 
 <footer>
-    <p>Obscure Divine</p>
+    <p class="Special-font">Obscure Divine</p>
 </footer>
 
 </body>
