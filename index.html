@@ -64,7 +64,7 @@
         color: #aaa;
     }
 
-    nav {
+   /* nav {
         margin-top: 2rem;
     }
 
@@ -89,12 +89,17 @@
     nav a:hover::after {
         width: 100%;
     }
-
+*/
     main {
         max-width: 900px;
         margin: auto;
         padding: 2rem 1rem;
     }
+   .container {
+       display: grid;
+       grid-template-columns: 1fr 1fr; 
+       gap: 13px; 
+   }   
 
     .service {
         margin: 4rem 0;
@@ -133,9 +138,9 @@
 
     footer {
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 36px;
         padding: 2rem;
-        color: #777;
+        color: #666;
         border-top: 1px solid #222;
     }
 
@@ -161,25 +166,31 @@
     <h1 class="Title-font">OBSCURE DIVINE</h1>
     <p class="Body-font">Mixing & Mastering • Music & Production Lessons</p>
 
+    <!-- decided against unnecessary navigation. 10/10. Would do again.
     <nav>
-        <a class="Attention-font" href="#mixing">Mixing & Mastering</a>
-        <a class="Attention-font" href="#lessons">Apprenticeships</a>
-    </nav>
+        <a href="#mixing">Mixing & Mastering</a>
+        <a href="#lessons">Apprenticeships</a>
+    </nav> 
+    life is--> 
 </header>
 
 <main>
-
+   
+   <div class="container">
     <section id="mixing" class="service">
-        <h2 class="Attention-font">Mixing & Mastering</h2>
+        <h2 class="Body-font">Mixing & Mastering</h2>
         <p class="Body-font">I sculpt raw chaos into pure sonic gold. Aggressive rhythms meet a crystal vocal. Deep, pulsing bass that could even awaken those deceased. Your track will hit, it'll shine clear, and keep your unique spirit.</p>
-        <a href="#" class="btn">Book a Consultation</a>
+        <a href="#" class="btn Attention-font">Book a Consultation</a>
     </section>
+   </div>
 
+   <div class="container">
     <section id="lessons" class="service">
-        <h2 class="Attention-font">Learn Music & Production</h2>
+        <h2 class="Body-font">Learn Music & Production</h2>
         <p class="Body-font">Learn to weave sound into your own unique illumination of color. One-on-one lessons in anything from arrangement, to sound design, vocal production, mixing, and mastering. Beginner to advanced. Your path to Obscurity begins here.</p>
-        <a href="#" class="btn">Become a Disciple</a>
+        <a href="#" class="btn Attention-font">Become a Disciple</a>
     </section>
+   </div>
 
 </main>
 
