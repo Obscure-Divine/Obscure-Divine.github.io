@@ -96,30 +96,27 @@
     }
    .container {
        display: flex;
+       gap: 16px;
+       padding: 1rem;
        flex-wrap: wrap;
    }   
 
    .service {
+      flex: 1;
       border-inline: 1.6px ridge #001342;
-      padding: 0rem 1rem;
-      margin: 3rem 1rem;
-      flex: 46%;
-      max-width: 46%;
+      padding: 3rem 1rem;
       opacity: 0;
       transform: translateY(30px);
       animation: riseUp 1s ease forwards;
        }
    
-    @media screen and (max-width: 600px) {
+ /*   @media screen and (max-width: 600px) {
       .service {
-           border-inline: 1.6px ridge #001342;
-           padding: 0rem 1rem;
-           margin: 3rem 1rem;
            flex: 100%;
            max-width: 100%;
        }
     }
-   
+   */
     .service:nth-child(2) {
         animation-delay: 0.3s;
     }
