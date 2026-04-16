@@ -48,17 +48,18 @@
         text-align: center;
         padding: 3rem 1rem;
         background: #000013;
-        animation: fadeIn 1.5s ease;
+        animation: fadeIn 1.6s ease;
     }
 
     h1 {
         color: #E333E6;
-        font-size: 4rem;
-        letter-spacing: 2px;
+        font-size: 3.6rem;
+        letter-spacing: 1.9px;
     }
 
     header p {
-        margin-top: 1.5rem;
+        margin-top: 1.1rem;
+        font-size: 1.3rem;
         color: #1E4552;
     }
 
@@ -91,11 +92,11 @@
     main {
         max-width: 76%;
         margin: auto;
-        padding: 2rem 1rem;
+        padding: 1.9rem 1rem;
     }
    .container {
        display: grid;
-       grid-template-columns: auto auto; 
+       grid-template-columns: auto auto;
        gap: 30px; 
    }   
 
@@ -118,27 +119,30 @@
 
     p {
         color: #1E4552;
-        margin-bottom: 1rem;
+        margin-bottom: 1.3rem;
     }
 
+    .box {
+        padding: 1rem 2;
+    }
     .btn {
         display: inline-block;
-        padding: 1.5rem 3rem;
+        padding: 1.3rem 2.1rem;
         border: 2px solid #c6c6c6;
         color: #00BA4E;
-        font-size: 1rem;
+        font-size: 2rem;
         text-decoration: none;
         transition: all 0.3s ease;
     }
 
     .btn:hover {
-        background: #E333E6;
+        background: #c6c6c6;
         color: #230137;
     }
 
     footer {
         text-align: center;
-        font-size: 48px;
+        font-size: 46px;
         padding: 1rem;
         color: #500090;
         border-top: 1px solid #001342;
@@ -165,29 +169,22 @@
 <header>
     <h1 class="Title-font">OBSCURE DIVINE</h1>
     <p class="Body-font">Mixing & Mastering • Music & Production Lessons</p>
-
-    <!-- decided against unnecessary navigation. 10/10. Would do again.
-    <nav>
-        <a href="#mixing">Mixing & Mastering</a>
-        <a href="#lessons">Apprenticeships</a>
-    </nav> 
-    life is--> 
 </header>
 
 <main>
    
    <div class="container">
-    <section id="mixing" class="service">
+    <section class="service">
         <h2 class="Body-font">Mixing & Mastering</h2>
-        <p class="Body-font">I sculpt raw chaos into pure sonic gold. Aggressive rhythms meet a crystal vocal. Deep, pulsing bass that could awaken the deceased. Your track will hit, it'll shine clear, and keep your unique spirit.</p>
-        <a href="#" class="btn Attention-font">Book a Consultation</a>
+        <p class="Body-font box">I sculpt raw chaos into pure sonic gold. Aggressive rhythms meet a crystal vocal. Deep, pulsing bass that could awaken the deceased. Your track will hit, it'll shine clear, and keep your unique spirit.</p>
+        <a class="btn Attention-font">Book a Consultation</a>
     </section>
    
 
-    <section id="lessons" class="service">
+    <section class="service">
         <h2 class="Body-font">Learn Music & Production</h2>
-        <p class="Body-font">Learn to weave sound into your own unique illumination of color. One-on-one lessons in anything from arrangement, to sound design, vocal production, mixing, and mastering. Beginner to advanced. Your path to Obscurity begins here.</p>
-        <a href="#" class="btn Attention-font">Become a Disciple</a>
+        <p class="Body-font box">Learn to weave sound into your own unique illumination of color. One-on-one lessons in anything from arrangement, to sound design, vocal production, mixing, and mastering. Beginner to advanced. Your path to Obscurity begins here.</p>
+        <a class="btn Attention-font">Become a Disciple</a>
     </section>
    </div>
    
